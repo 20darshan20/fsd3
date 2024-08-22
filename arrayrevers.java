@@ -1,23 +1,29 @@
-import java.lang.reflect.Array;
+import java.util.LinkedList;
+import java.util.Queue;
 
-public class arrayrevers {
-    public static void main(String[] args) {
-        int array1[] = {1, 2, 3,};
-        int[] newArray = new int[array1.length];
-        for (int i = 0; i < array1.length; i++) {
-            System.out.print(array1[i] + " ");
-        }
-        int count =0;
-        System.out.println(" ");
-        for (int i = array1.length - 1; i >= 0; i--) {
-            newArray[count]=array1[i];
-            count++;
-        }
-        for (int i = 0; i < newArray.length ; i++) {
-            System.out.print(newArray[i]);
+class One {
+    public static void main(String arg[]) {
+        Queue<Integer> q = new LinkedList<Integer>();
 
+        // Inserts elements to the end of the queue
+        q.add(3);
+        q.add(2);
+        q.add(6);
+        q.add(4);
+        q.add(5);
+
+        int val = q.peek(); // Returns the element at the front of the queue
+
+        // Iterate through the queue
+        for (int i = 0; i < q.size(); i++) {
+            int del = q.remove(); // Returns and removes the element at the front of the queue
+            if (val < del) {
+                val = del;
+            }
+            q.add(del);
         }
 
+        // Print the maximum element
+        System.out.println("Maximum element in the queue: " + val);
     }
-
 }

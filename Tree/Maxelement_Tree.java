@@ -22,7 +22,7 @@ public class Maxelement_Tree {
             res=RightSide;
         return res;
     }
-    public static void main(String[] args) {git
+    public static void main(String[] args) {
         Maxelement_Tree Max=new Maxelement_Tree();
         Max.root=new Node(2);
         Max.root.left=new Node(3);

@@ -18,7 +18,7 @@ public class HiracalInheritance {
         obj1.CompanyName="TSC";
 
 
-
+       
         CompanyOffer2 obj2=new CompanyOffer2();
         obj2.name="vikas";
         obj2.CompanyName="upgrade";
@@ -26,4 +26,7 @@ public class HiracalInheritance {
     }
 
 }
+
+
+        
 

@@ -13,6 +13,10 @@ public class HashExmaple {
           for (int key:map.keySet()) {
               if (map.get(key) > n/3){
                   System.out.println(key);
+
+
+
+                  
               }
           }
     }

@@ -5,6 +5,10 @@ public class Half_Pyramid_Star {
             System.out.print(" * ");
         }
         System.out.println();
+
+
+
+        
     }
 }
 

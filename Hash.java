@@ -15,7 +15,10 @@ public class Hash {
         for (Map.Entry<String, Integer> E : map.entrySet()) {
             System.out.println(E.getKey());
             System.out.println(E.getValue());
-        }
+
+
+
+            
         Set<String>keys=map.keySet();
         for (String key:keys){
             System.out.println(key+" "+ map.get(key));

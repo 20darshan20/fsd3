@@ -12,6 +12,8 @@ class CompanyOffer2 extends PersonalDetails{
     int Salary;
 }
 public class HiracalInheritance {
+
+    
     public static void main(String[]args){
         CompanyOffer1 obj1=new CompanyOffer1();
         obj1.name="Darshan";

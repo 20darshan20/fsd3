@@ -3,6 +3,9 @@ package GreedAlgo;
 import java.util.Arrays;
 import java.util.Comparator;
 class Activity{
+
+
+    
     int start;
     int end;
 Activity(int start,int end){
